@@ -4,9 +4,12 @@
 
 let a = 10, 
     b = 20, 
-    c = 30, 
-    d = 40; 
+    c = 'Hola ', 
+    d = 'Spiderman'; 
     x = a + b;
+
+const saludo = c + d;
+
 
 /* Distintos tipos de console, hay más? investigar
 console.log(x);
@@ -23,6 +26,24 @@ console.log('c', c );
 
 */
 
-console.log({ a });
-console.log({ b });
-console.log({ c });
+// {}}Las llaves indican que es un objeto, esto sirve para colocar el nombre y su valor
+// Si uno quiere elaborar visualmente su console puede usar css
+
+// console.log('%c Mis variables', 'color:blue; font-weight: bold')
+// console.log({ a });
+// console.log({ b });
+// console.log({ c });
+
+
+C = 'Hola de nuevo'
+
+
+/* console.table ayuda a ver los datos en una tabla
+
+console.table({a,b,c,d,x});
+
+*/
+
+
+
+
