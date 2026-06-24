@@ -49,3 +49,31 @@ saludar3( 'Mauricio' );
 saludar4( 'Christian');
 saludar5();
 saludar6( 'Fernandez' );
+
+// para los retorno se hace así:
+
+function sumar( a, b ) {
+ return a + b;
+}
+
+// return de fecha
+const sumar2 = (a,b)=> {
+    return a + b;
+}
+
+//función resumida si solo hay
+//una linea de codigo
+const sumar3 = (a,b) => a + b;
+
+function getAleatorio () {
+    return Math.random();
+}
+
+const getAleatorio2 =() => Math.random();
+
+console.log( sumar(1,2) );
+console.log( sumar2(2,2) );
+console.log( sumar3(3,2) );
+console.log( getAleatorio() );
+console.log( getAleatorio2() );
+
