@@ -45,3 +45,8 @@ let diaHoy = {
 };
 
 console.log( diaHoy[today] || 'Día no definido');
+
+
+let diaSemana = new Date().getDay();
+
+console.log({ diaSemana });
